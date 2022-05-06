@@ -64,6 +64,7 @@ export const CompanyContainer = styled.div`
   display: flex;
 	align-items:baseline;
 	flex-wrap: wrap;
+	flex-direction: column;
 	margin-right: auto;
 	
 
@@ -86,8 +87,8 @@ export const Slogan = styled.p`
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 18px;
-	line-height: 30px;
-	padding: 1rem;
+	line-height: 25px;
+	padding: 0.5rem;
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;

@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillFacebook, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import {
@@ -19,30 +19,41 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:555-555-555">555-555-555</LinkItem>
+          <LinkItem href='tel:505-335-208'>505-335-208</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@contact.pl">contact@contact.pl</LinkItem>
+          <LinkItem href='mailto:olaszczur93@gmail.com'>
+            olaszczur93@gmail.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
 
-      <SocialIconsContainer>     
+      <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>whatssup</Slogan>
-        </CompanyContainer> <SocialContainer>
-      <SocialIcons href='/'>
-        <AiFillGithub />
-      </SocialIcons>
+          <Slogan>
+            Problems are just solutions, which have not yet presented
+            themselves.
+          </Slogan>
+          <Slogan>
+            <LinkItem href='https://www.flaticon.com/free-icons/web-development' style={{ fontSize: '12px' }}>
+              Icon used for favicon by Freepik - Flaticon
+            </LinkItem>
+          </Slogan>
+        </CompanyContainer>
+        <SocialContainer>
+          <SocialIcons href='https://github.com/Nikara4'>
+            <AiFillGithub />
+          </SocialIcons>
 
-      <SocialIcons href='/'>
-        <AiFillLinkedin />
-      </SocialIcons>
+          <SocialIcons href='https://www.linkedin.com/in/aleksandra-szczur/'>
+            <AiFillLinkedin />
+          </SocialIcons>
 
-      <SocialIcons href='/'>
-        <AiFillInstagram />
-      </SocialIcons>
-      </SocialContainer>
+          <SocialIcons href='https://www.facebook.com/olaszczur4'>
+            <AiFillFacebook />
+          </SocialIcons>
+        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

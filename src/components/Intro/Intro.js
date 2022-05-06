@@ -10,7 +10,7 @@ const Intro = (props) => (
       My Developer Portfolio
     </SectionTitle>
     <SectionText>
-    I like to call myself a witch or a magician, because coding is like magic - creating something extraordinary out of a simple text. You have entered my magic world, where I can show you, what I've created. Feel free to look around or contact me for more.
+    I like to call myself a witch or a magician, because coding is like magic - creating something extraordinary out of a simple text. You have entered my magic world, where I can show you, what I've created. You will find my professional experience in my resume. Feel free to look around or contact me for more.
     </SectionText>
     <Button onClick={() => window.location = 'https://nikara4.github.io/MyCV/'}>My resume</Button>
   </LeftSection>

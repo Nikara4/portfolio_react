@@ -66,7 +66,7 @@ export const CarouselItem = styled.div`
 
 export const CarouselItemTitle = styled.h4`
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
@@ -90,7 +90,7 @@ export const CarouselItemTitle = styled.h4`
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
-  width: 100%;
+  width: 37%;
 
   @media ${props => props.theme.breakpoints.sm} {
     -webkit-mask-image: none;
