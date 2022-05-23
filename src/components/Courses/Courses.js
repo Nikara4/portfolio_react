@@ -15,7 +15,7 @@ import {
 import { courses } from '../../constants/constants';
 
 const Courses = () => (
-  <Section>
+  <Section id='courses'>
     <SectionDivider divider />
     <SectionTitle>Courses & Certificates</SectionTitle>
     <Boxes>

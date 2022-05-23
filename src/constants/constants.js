@@ -4,7 +4,7 @@ export const projects = [
   {
     title: 'IT Memes Website',
     description: "MERN website using Node.js, Next.js with Typescript, Express & MongoDB created to gather the best memes about IT world in one place. You can upload, create and vote on the funniest memes.",
-      image: '/images/1.png',
+      image: '/images/it_memes_world.png',
       tags: ['MongoDB', 'Express', 'Node', 'Next.js', 'TypeScript'],
     source: '/',
     visit: '/',
@@ -13,7 +13,7 @@ export const projects = [
   {
     title: 'MERN Memories',
     description: "Full Stack MERN Application created using React, Node.js, Express & MongoDB. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
+      image: '/images/MERN_memories.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/Nikara4/Memories_App_FullStack_MERN',
     visit: 'https://mern-prj-memories.netlify.app/',
@@ -44,7 +44,7 @@ export const TimeLineData = [
   { year: 'half 2021', text: 'Completed HTML, CSS & JavaScript courses', id: uuidv4(), },
   { year: 2021, text: 'Created my first portfolio', id: uuidv4(), },
   { year: 'end 2021', text: 'Completed School of React course', id: uuidv4(), },
-  { year: 2022, text: 'Started working with ReCodeIT', id: uuidv4(), },
+  { year: 2022, text: '3 months working with ReCodeIT', id: uuidv4(), },
 ];
 
 export const courses = [
