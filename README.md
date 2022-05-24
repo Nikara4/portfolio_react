@@ -2,7 +2,7 @@
 
 A second (and final for now) version of my Portfolio, showing more technologies and skills. Projects were updated to the newest ones, covering also backup version of JavaScript - Node.js.
 
-Live: [My Developer Portfolio]()
+Live: [My Developer Portfolio](https://aszczur-dev.netlify.app/)
 
 ![Portfolio Website](https://i.ibb.co/5Lq1mWS/portfolio.jpg)
 
