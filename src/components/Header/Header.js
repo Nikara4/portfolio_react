@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillFacebook, AiFillLinkedin } from 'react-icons/ai';
 import { RiCodeSSlashLine } from 'react-icons/ri';
 
 import {
@@ -18,7 +18,7 @@ const Header = () => (
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
           <RiCodeSSlashLine size='2.5rem' />
-          <Span>&nbsp;Full-Stack Portfolio</Span>
+          <Span>&nbsp;Coding Portfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -29,30 +29,32 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href='#about'>
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href='#technologies'>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#achievements'>
-          <NavLink>Achievements</NavLink>
+        <Link href='#about'>
+          <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href='#courses'>
+          <NavLink>Courses</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='/'>
-        <AiFillGithub size='2rem'/>
+      <SocialIcons href='https://github.com/Nikara4'>
+        <AiFillGithub />
       </SocialIcons>
-      <SocialIcons href='/'>
-        <AiFillLinkedin size='2rem'/>
+
+      <SocialIcons href='https://www.linkedin.com/in/aleksandra-szczur/'>
+        <AiFillLinkedin />
       </SocialIcons>
-      <SocialIcons href='/'>
-        <AiFillInstagram size='2rem'/>
+
+      <SocialIcons href='https://www.facebook.com/olaszczur4'>
+        <AiFillFacebook />
       </SocialIcons>
     </Div3>
   </Container>

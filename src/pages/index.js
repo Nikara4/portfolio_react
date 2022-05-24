@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import {
-  Achievements,
+  Courses,
   About,
   Projects,
   Technologies,
@@ -27,7 +27,7 @@ const Home = () => {
         <Projects />
         <Technologies />
         <About />
-        <Achievements />
+        <Courses />
       </Layout>
     </>
   );

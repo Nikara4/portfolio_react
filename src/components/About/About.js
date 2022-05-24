@@ -27,7 +27,7 @@ const About = () => {
 
   const scroll = (node, left) => {
     return node.scrollTo({ left, behavior: 'smooth' });
-  }
+  };
 
   const handleClick = (e, i) => {
     e.preventDefault();
@@ -43,32 +43,37 @@ const About = () => {
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.round(
+        (carouselRef.current.scrollLeft /
+          (carouselRef.current.scrollWidth * 0.7)) *
+          TimeLineData.length
+      );
 
       setActiveItem(index);
     }
-  }
+  };
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
     window.addEventListener('resize', handleResize);
   }, []);
 
   return (
     <Section id='about'>
-      <SectionDivider />
-      <SectionTitle main>Timeline</SectionTitle>
+      <SectionDivider divider />
+      <SectionTitle>About me</SectionTitle>
       <SectionText>
-        I am currently learning how to be a Front-End Developer. I have majored
-        in cultural studies and tourism and my work experience is related to
-        administration and client service. I am well organised, can easily find
-        myself in new situations and have positive attitude. My goal is to
-        become advanced in JavaScript and React and go even further.
+        My name is Aleksandra. I have majored in tourism and cultural studies,
+        but decided that this is not the way I want to pursue. I have played
+        with creating simple webpages at school and decided to try once again -
+        this time with growth and career in mind. My professional field of work
+        up to date is background screen checks, client contact and
+        administration. I may struggle in new situations at first and need a bit
+        of help, but I don't like to give up easily and try my best to find my
+        way through. When I do, I feel very confident and enjoy it!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={() => handleScroll()}>
         <>
@@ -139,7 +144,6 @@ const About = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };
