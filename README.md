@@ -27,4 +27,5 @@ Any further updates will mostly cover new projects. I am also thinking of adding
 **Update 23/05/2022**: finished projects was pushed to Github/first deployment on Netlify
 
 ## Inspiration
+
 This project is based on a YouTube project video by JavaScript Mastery: [Build and Deploy THE PERFECT Portfolio Website | Create a Portfolio from Scratch](https://youtu.be/OPaLnMw2i_0). The code was altered for my personal use.
