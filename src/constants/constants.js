@@ -3,18 +3,20 @@ import { v4 as uuidv4 } from 'uuid';
 export const projects = [
   {
     title: 'IT Memes Website',
-    description: "MERN website using Node.js, Next.js with Typescript, Express & MongoDB created to gather the best memes about IT world in one place. You can upload, create and vote on the funniest memes.",
-      image: '/images/it_memes_world.png',
-      tags: ['MongoDB', 'Express', 'Node', 'Next.js', 'TypeScript'],
-    source: '/',
-    visit: '/',
+    description:
+      'MERN website using Node.js, Next.js with Typescript, Express & MongoDB created to gather the best memes about IT world in one place. You can upload, create and vote on the funniest memes.',
+    image: '/images/it_memes_world.png',
+    tags: ['MongoDB', 'Express', 'Node', 'Next.js', 'TypeScript'],
+    source: 'https://github.com/Nikara4/MERN_it_memes_website',
+    visit: 'https://itmemesworld.netlify.app/',
     id: uuidv4(),
   },
   {
     title: 'MERN Memories',
-    description: "Full Stack MERN Application created using React, Node.js, Express & MongoDB. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/MERN_memories.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+    description:
+      'Full Stack MERN Application created using React, Node.js, Express & MongoDB. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.',
+    image: '/images/MERN_memories.png',
+    tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/Nikara4/Memories_App_FullStack_MERN',
     visit: 'https://mern-prj-memories.netlify.app/',
     id: uuidv4(),
@@ -22,15 +24,16 @@ export const projects = [
   {
     title: 'Rock, paper, scissors, lizard, Spock',
     description: `Advanced "rock, paper, scissors" game with two more elements: lizard and Spock, which are known from "The Big Bang Theory". This project mostly focuses on JS functions, probability and implementation of choice.`,
-      image: '/images/icon_rock-paper-scis.png',
-      tags: ['JavaScript', 'HTML', 'CSS'],
-      source: 'https://github.com/Nikara4/rock_paper_scissors_lizard_spock',
-      visit: 'https://nikara4.github.io/rock_paper_scissors_lizard_spock/',
+    image: '/images/icon_rock-paper-scis.png',
+    tags: ['JavaScript', 'HTML', 'CSS'],
+    source: 'https://github.com/Nikara4/rock_paper_scissors_lizard_spock',
+    visit: 'https://nikara4.github.io/rock_paper_scissors_lizard_spock/',
     id: uuidv4(),
   },
   {
     title: 'Finances Balance',
-    description: "This app is a part of the React School 4 month course completed in 2021. The current consists of four sections: financial balance, finance form, incomes and expenses. It is a simple react-hook-form which helps you to calculate your own budget.",
+    description:
+      'This app is a part of the React School 4 month course completed in 2021. The current consists of four sections: financial balance, finance form, incomes and expenses. It is a simple react-hook-form which helps you to calculate your own budget.',
     image: '/images/finance.png',
     tags: ['React'],
     source: 'https://github.com/Nikara4/financial_balance_MERN/tree/main/',
@@ -40,11 +43,31 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey', id: uuidv4(), },
-  { year: 'half 2021', text: 'Completed HTML, CSS & JavaScript courses', id: uuidv4(), },
-  { year: 2021, text: 'Created my first portfolio', id: uuidv4(), },
-  { year: 'end 2021', text: 'Completed School of React course', id: uuidv4(), },
-  { year: 2022, text: '3 months working with ReCodeIT', id: uuidv4(), },
+  { id: uuidv4(), year: 2020, text: 'Started my journey', id: uuidv4() },
+  {
+    id: uuidv4(),
+    year: 'half 2021',
+    text: 'Completed HTML, CSS & JavaScript courses',
+    id: uuidv4(),
+  },
+  {
+    id: uuidv4(),
+    year: 2021,
+    text: 'Created my first portfolio',
+    id: uuidv4(),
+  },
+  {
+    id: uuidv4(),
+    year: 'end 2021',
+    text: 'Completed School of React course',
+    id: uuidv4(),
+  },
+  {
+    id: uuidv4(),
+    year: 2022,
+    text: '3 months working with ReCodeIT',
+    id: uuidv4(),
+  },
 ];
 
 export const courses = [
@@ -89,7 +112,8 @@ export const courses = [
     date: '04/2021',
     link: '/images/webdev_basics.jpg',
     platform: 'Udemy',
-    course: 'https://www.udemy.com/course/kurs-web-developer-od-podstaw-w-15-dni/',
+    course:
+      'https://www.udemy.com/course/kurs-web-developer-od-podstaw-w-15-dni/',
     id: uuidv4(),
   },
   {
